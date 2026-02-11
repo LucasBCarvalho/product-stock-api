@@ -28,7 +28,7 @@ public class ProductRawMaterial {
     @JoinColumn(name = "raw_material_id", nullable = false)
     private RawMaterial rawMaterial;
 
-    private BigDecimal quantityNeeded; // quantidade necessária da matéria-prima
+    private BigDecimal quantityNeeded;
 
     public ProductRawMaterial(ProductRawMaterialRequestDTO data, Product product, RawMaterial rawMaterial) {
         this.product = product;
